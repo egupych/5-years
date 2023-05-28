@@ -163,13 +163,13 @@ nav {
 	margin-left: 6vw;
 	cursor: pointer;
 
-  margin-left: 8.2vw;
+  margin-left: 15vw;
 }
 
 
 .links {
 	display: flex;
-	margin-right: 38vw;
+	margin-right: 15vw;
 	cursor: pointer;
   width: 20vw;
   justify-content: space-between;
@@ -279,32 +279,92 @@ nav {
   top: 0vw;
 }
 
-.paragraph {
-  width: 100%;
-  margin: 0 auto;
-  position: relative;
-  padding: 30vw 22vw 4vw;
+.block1{
   background-color: #E6E6E6;
+  position: relative;
 }
 
-.paragraph:nth-child(2n) {
+.block2{
+  background-color: #F7F7F7;
+  position: relative;
+}
+
+.block3{
+  background-color: #F7F7F7;
+  position: relative;
+}
+
+.block4{
+  background-color: #E6E6E6;
+  position: relative;
+}
+
+
+.wallpaper_block1 {
+  position: absolute;
+  top: -5vw;
+  width: 100vw;
+}
+
+.wallpaper_block2 {
+  position: absolute;
+  top: -5vw;
+  width: 100vw;
+}
+
+.wallpaper_block3 {
+  position: absolute;
+  top: -5vw;
+  width: 100vw;
+}
+
+.wallpaper_block4 {
+  position: absolute;
+  top: -5vw;
+  width: 100vw;
+}
+
+
+.paragraph1 {
   width: 100%;
   margin: 0 auto;
   position: relative;
-  padding: 30vw 22vw 4vw;
-  background-color: #ffffff;
+  padding: 41vw 22vw 7vw;
 }
+
+.paragraph2 {
+  width: 100%;
+  margin: 0 auto;
+  position: relative;
+  padding: 36vw 22vw 7vw;
+}
+
+.paragraph3 {
+  width: 100%;
+  margin: 0 auto;
+  position: relative;
+  padding: 41.5vw 22vw 7vw;
+}
+
+.paragraph4 {
+  width: 100%;
+  margin: 0 auto;
+  position: relative;
+  padding: 33vw 22vw 7vw;
+}
+
+
 
 .videobox {
   display: flex;
   justify-content: center;
-  padding: 10vw 0;
-
+  padding: 5vw 0;
+  background-color: #E6E6E6;
 }
 
 video {
   width: 70vw;
-
+  border-radius: 1vw;
 }
 
 
@@ -312,9 +372,52 @@ video {
 /* Кнопка перехода на статью                        */
 /*::::::::::::::::::::::::::::::::::::::::::::::::::*/
 
-.button-text {
-  font-size: 2.5vw;
-  font-family: 'Yeseva One',serif;
+.egup_button{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 2vw 2vw;
+  text-decoration: none;
+  text-align: center;
+  cursor: pointer;
+  width: 20vw;
+  
+  background-color: #072239;
+  color: #fff;
+  border-radius: 10vw;
+  transition: background-color 0.2s ease;
+  margin-top: 3vw;
+}
+
+.egup_button:active {
+  transform: scale(0.97);
+ }
+
+.egup_button:hover{
+  background-color: #E30510;
+}
+
+.egup_button_text,
+.egup_button_text:visited {
+text-decoration: none;
+color: #fff;
+}
+
+.egup_button_text:hover {
+  text-decoration: none;
+  color: #fff;
+}
+
+.egup_button_text {
+font-size: 1.6vw;
+
+color: #FFFFFF;
+text-decoration: none;
+
+flex: none;
+order: 0;
+flex-grow: 0;
 }
 
 /*::::::::::::::::::::::::::::::::::::::::::::::::::*/
@@ -510,6 +613,16 @@ footer {
 
 .back_button img {
   width: 8vw;
+}
+
+.egup_button{
+  padding: 4vw;
+  
+  border-radius: 50vw;
+}
+
+.egup_button_text {
+  font-size: 3.1vw;
 }
 
 .logo {
