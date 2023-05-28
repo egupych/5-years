@@ -295,6 +295,18 @@ nav {
   background-color: #ffffff;
 }
 
+.videobox {
+  display: flex;
+  justify-content: center;
+  padding: 10vw 0;
+
+}
+
+video {
+  width: 70vw;
+
+}
+
 
 /*::::::::::::::::::::::::::::::::::::::::::::::::::*/
 /* Кнопка перехода на статью                        */
