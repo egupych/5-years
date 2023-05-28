@@ -131,12 +131,13 @@ color: red;
   width: 3vw;
   cursor: pointer;
   transition: all 0.2s ease;
+  transform: rotate(90deg);
 } 
 
 .rocket:hover {
-transform: scale(1.05);
-
+transform: rotate(90deg);
 }
+
 
 
 /*::::::::::::::::::::::::::::::::::::::::::::::::::*/
@@ -265,9 +266,9 @@ nav {
   font-size: 1.5vw;
   line-height: 180%;
   margin-bottom: 1vw;
-  /* transform: translate(3vw, 0vw);
+  transform: translate(3vw, 0vw);
   opacity: 0.2;
-  transition: all 1.5s cubic-bezier(0.16, 1, 0.3, 1); */
+  transition: all 1.5s cubic-bezier(0.16, 1, 0.3, 1);
 }
 
 .paragraph_description._active{
