@@ -191,10 +191,10 @@ nav {
 .link:after {
 	content: "";
 	position: absolute;
-	bottom: 0.15vw;
+	bottom: 0vw;
 	right: 0;
 	width: 0%;
-	height: 0.105vw;
+	height: 0.16vw;
 	background: #072239;
 	transition: all 0.32s cubic-bezier(.47,.17,.3,1);
 }
@@ -240,11 +240,6 @@ nav {
   margin: 0 auto;
   position: relative;
   padding: 2vw;
-}
-
-.paragraph_description::first-letter {
-  color: #072239;
-  font-size: 1.5vw;
 }
 
 .paragraph_header {
@@ -505,16 +500,38 @@ footer {
   width: 8vw;
 }
 
+.logo {
+	font-family: "Alice", serif;
+	font-size: 4vw;
+	margin-left: 6vw;
+	cursor: pointer;
+
+  margin-left: 8.2vw;
+}
+
+
+nav {
+	font-size: 4vw;
+  padding: 5vw 0;
+}
+
+.links {
+	display: flex;
+	margin-right: 18vw;
+	cursor: pointer;
+  width: 48vw;
+  justify-content: space-between;
+}
 
 
 .paragraph {
-  width: 90%;
-  margin-bottom: 3vw;
+  width: 100%;
+  padding: 30vw 10vw 4vw;
 }
 
-.paragraph_description::first-letter {
-  color: #072239;
-  font-size: 4vw;
+.paragraph:nth-child(2n) {
+  width: 100%;
+  padding: 30vw 10vw 4vw;
 }
 
 .paragraph_header {
@@ -534,6 +551,11 @@ footer {
   transition: all 1.5s cubic-bezier(0.16, 1, 0.3, 1);
 }
 
+.button-text {
+  font-size: 4vw;
+  font-family: 'Yeseva One',serif;
+}
+
 
 .footer {
   width: 90%;
@@ -544,7 +566,7 @@ footer {
   gap: 3vw;
 }
 
-.logo {
+.logo2 {
   font-size: 6vw;
 }
 
