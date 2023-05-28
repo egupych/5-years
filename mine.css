@@ -525,6 +525,7 @@ footer {
 nav {
 	font-size: 4vw;
   padding: 5vw 0;
+  display: none;
 }
 
 .links {
