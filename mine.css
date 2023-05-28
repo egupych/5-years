@@ -117,7 +117,7 @@ color: red;
 }
 
 .back_button img {
-  width: 5vw;
+  width: 4vw;
 }
 
 .back_button:hover {
@@ -162,7 +162,8 @@ nav {
 	font-size: 2.3vw;
 	margin-left: 6vw;
 	cursor: pointer;
-  margin-left: 14vw;
+
+  margin-left: 8.2vw;
 }
 
 
@@ -170,19 +171,21 @@ nav {
 	display: flex;
 	margin-right: 38vw;
 	cursor: pointer;
+  width: 20vw;
+  justify-content: space-between;
 }
 
 .link {
-	margin-left: 3vw;
 	position: relative;
 	overflow: hidden;
-	padding: 0.5vw 0;
+  padding: 0.2vw 0;
 }
 
 
 .linkline {
 	position: absolute;
 	display: block;
+  height: 0.15vw;
 }
 
 .link:after {
@@ -192,7 +195,7 @@ nav {
 	right: 0;
 	width: 0%;
 	height: 0.105vw;
-	background: rgb(56, 56, 56);
+	background: #072239;
 	transition: all 0.32s cubic-bezier(.47,.17,.3,1);
 }
 
@@ -232,14 +235,12 @@ nav {
 }
 
 
-.paragraph {
+.paragraph_first {
   width: 60%;
   margin: 0 auto;
   position: relative;
   padding: 2vw;
 }
-
-
 
 .paragraph_description::first-letter {
   color: #072239;
@@ -281,6 +282,32 @@ nav {
   position: absolute;
   right: -14vw;
   top: 0vw;
+}
+
+.paragraph {
+  width: 100%;
+  margin: 0 auto;
+  position: relative;
+  padding: 30vw 22vw 4vw;
+  background-color: #E6E6E6;
+}
+
+.paragraph:nth-child(2n) {
+  width: 100%;
+  margin: 0 auto;
+  position: relative;
+  padding: 30vw 22vw 4vw;
+  background-color: #ffffff;
+}
+
+
+/*::::::::::::::::::::::::::::::::::::::::::::::::::*/
+/* Кнопка перехода на статью                        */
+/*::::::::::::::::::::::::::::::::::::::::::::::::::*/
+
+.button-text {
+  font-size: 2.5vw;
+  font-family: 'Yeseva One',serif;
 }
 
 /*::::::::::::::::::::::::::::::::::::::::::::::::::*/
