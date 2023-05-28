@@ -568,6 +568,11 @@ nav {
   font-family: 'Yeseva One',serif;
 }
 
+video {
+  width:  100vw;
+
+}
+
 
 .footer {
   width: 90%;
@@ -594,6 +599,8 @@ nav {
   margin-left: 4vw;
   margin-left: 0 auto;
 }
+
+
 
 .vk_logo {
   width: 7vw;
