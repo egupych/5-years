@@ -177,3 +177,49 @@ function setScrollIntoView1Options(top) {
 		behavior: "smooth"
 	});
 }
+
+
+
+
+
+function setScrollIntoView2(top) {
+	const lesson = document.querySelector('.lesson');
+	lesson.scrollIntoView(top);
+}
+
+function setScrollIntoView2Options(top) {
+	const lesson = document.querySelector('.lesson');
+	lesson.scrollIntoView({
+		block: "start",
+		inline: "nearest",
+		behavior: "smooth"
+	});
+}
+
+function setScrollIntoView3(top) {
+	const boxprice = document.querySelector('.boxprice');
+	boxprice.scrollIntoView(top);
+}
+
+function setScrollIntoView3Options(top) {
+	const boxprice = document.querySelector('.boxprice');
+	boxprice.scrollIntoView({
+		block: "start",
+		inline: "nearest",
+		behavior: "smooth"
+	});
+}
+
+function setScrollIntoView4(top) {
+	const themes = document.querySelector('.themes');
+	themes.scrollIntoView(top);
+}
+
+function setScrollIntoView4Options(top) {
+	const themes = document.querySelector('.themes');
+	themes.scrollIntoView({
+		block: "start",
+		inline: "nearest",
+		behavior: "smooth"
+	});
+}

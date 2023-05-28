@@ -1,15 +1,5 @@
-/* @font-face {
-    font-family: 'Nunito';
-    src: local('Nunito'), url('Nunito-Regular.woff2') format('woff2');
-    font-weight: normal;
-    font-style: normal;
-    font-display: swap;
-	  unicode-range: U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116;
-} */
 
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;420;500;600;700&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@400;500&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Montserrat+Alternates:wght@300;500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Alice&family=Yeseva+One&display=swap');
 
 /*::::::::::::::::::::::::::::::::::::::::::::::::::*/
 /* Обнуление                                        */
@@ -61,7 +51,7 @@ body {
   -webkit-text-size-adjust: 100%;
   overflow-x:hidden;
   background: #F7F7F7;
-  font-family: 'Montserrat', sans-serif;
+  font-family: 'Alice', serif;
 	font-size: 1.4vw;
   /*user-select: none;  Не даёт взаимодействовать с текстом */
 }
@@ -69,7 +59,7 @@ body {
   /*Меняет цвет выделения*/
 ::selection {
   background-color: #072239;
-  color: #000000;
+  color: #F7F7F7;
 }
   
 input,
@@ -107,7 +97,6 @@ h4,
 h5,
 h6 {
 font-size: inherit;
-font-weight: 400;
 }
 
 .bigred {
@@ -117,7 +106,7 @@ color: red;
 
   
 * {
-  color: #212123;
+  color: #072239;
 }
 
 .back_button {
@@ -150,36 +139,137 @@ transform: scale(1.05);
 }
 
 
+/*::::::::::::::::::::::::::::::::::::::::::::::::::*/
+/* Навигация                                        */
+/*::::::::::::::::::::::::::::::::::::::::::::::::::*/
+
+nav {
+	font-size: 1.4vw;
+	height: 5vw;
+	width: 100%;
+	/* background-color: rgb(243, 243, 243); */
+	/* position: fixed; */
+	z-index: 10;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	user-select: none;
+  position: absolute;
+}
+
+.logo {
+	font-family: "Alice", serif;
+	font-size: 2.3vw;
+	margin-left: 6vw;
+	cursor: pointer;
+  margin-left: 14vw;
+}
+
+
+.links {
+	display: flex;
+	margin-right: 38vw;
+	cursor: pointer;
+}
+
+.link {
+	margin-left: 3vw;
+	position: relative;
+	overflow: hidden;
+	padding: 0.5vw 0;
+}
+
+
+.linkline {
+	position: absolute;
+	display: block;
+}
+
+.link:after {
+	content: "";
+	position: absolute;
+	bottom: 0.15vw;
+	right: 0;
+	width: 0%;
+	height: 0.105vw;
+	background: rgb(56, 56, 56);
+	transition: all 0.32s cubic-bezier(.47,.17,.3,1);
+}
+
+.link:hover:after {
+	left: 0;
+	width: 100%;
+}
+
+.linkWhite {
+	margin-left: 3vw;
+	position: relative;
+	overflow: hidden;
+	padding: 0.5vw 0;
+	cursor: pointer;
+}
+
+.linkWhite:after {
+	content: "";
+	position: absolute;
+	bottom: 0.7vw;
+	right: 0;
+	width: 0%;
+    height: 2px;
+    background: rgb(255 255 255);
+	transition: all 0.32s cubic-bezier(.47,.17,.3,1);
+}
+
+.linkWhite:hover:after {
+	left: 0;
+	width: 100%;
+}
+
+.wallpaper {
+  width: 100%;
+  pointer-events: none;
+  position: relative;
+}
 
 
 .paragraph {
   width: 60%;
   margin: 0 auto;
-  margin-bottom: 2vw;
+  position: relative;
+  padding: 2vw;
 }
+
+
 
 .paragraph_description::first-letter {
   color: #072239;
-  font-size: 1.7vw;
+  font-size: 1.5vw;
 }
 
 .paragraph_header {
-  font-family: 'Montserrat Alternates', sans-serif;
-  font-weight: 300;
-  font-size: 3.5vw;
+  font-family: 'Alice', serif;
+  font-size: 3vw;
   
   margin-bottom: 0.8vw;
+  text-align: center;
+}
+
+.big_header {
+  font-family: 'Yeseva One', serif;
+  font-size: 5vw;
+  
+  text-align: center;
+  padding: 1vw;
 }
 
 .paragraph_description {
-  font-family: 'Montserrat', sans-serif;
-  font-weight: 420;
-  font-size: 1.3vw;
+  font-family: 'Alice', serif;
+  font-size: 1.5vw;
   line-height: 180%;
   margin-bottom: 1vw;
-  transform: translate(3vw, 0vw);
+  /* transform: translate(3vw, 0vw);
   opacity: 0.2;
-  transition: all 1.5s cubic-bezier(0.16, 1, 0.3, 1);
+  transition: all 1.5s cubic-bezier(0.16, 1, 0.3, 1); */
 }
 
 .paragraph_description._active{
@@ -187,16 +277,20 @@ transform: scale(1.05);
   opacity: 1;
 }
 
+.pic_5 {
+  position: absolute;
+  right: -14vw;
+  top: 0vw;
+}
 
 /*::::::::::::::::::::::::::::::::::::::::::::::::::*/
 /* Футер                                            */
 /*::::::::::::::::::::::::::::::::::::::::::::::::::*/
 
-.logo {
-  font-weight: 600;
+.logo2 {
   font-size: 2vw;
 
-  color: #212123;
+  color: #072239;
   cursor: pointer;
 }
 
@@ -289,10 +383,10 @@ transform: scale(1.05);
   justify-content: space-between;
   width: 90%;
   align-items: center;
-  font-size: 1vw;
-  margin-top: 1vw;
-  margin-bottom: 3vw;
-  font-weight: 500;
+  font-size: 1.2vw;
+  margin-top: 3vw;
+  margin-bottom: 4vw;
+
 }
 
 .authors:hover .advertising {
@@ -303,6 +397,7 @@ transform: scale(1.05);
 footer {
   display: flex;
   justify-content: center;
+  background-color: #E6E6E6;
 }
 
 /*::::::::::::::::::::::::::::::::::::::::::::::::::*/
@@ -396,16 +491,14 @@ footer {
 }
 
 .paragraph_header {
-  font-family: 'Montserrat Alternates', sans-serif;
-  font-weight: 300;
+  font-family: 'Alice', serif;
   font-size: 7vw;
   
   margin-bottom: 3vw;
 }
 
 .paragraph_description {
-  font-family: 'Montserrat', sans-serif;
-  font-weight: 420;
+  font-family: 'Alice', serif;
   font-size: 3.3vw;
   line-height: 160%;
   margin-bottom: 3vw;
@@ -425,7 +518,6 @@ footer {
 }
 
 .logo {
-  font-weight: 600;
   font-size: 6vw;
 }
 
