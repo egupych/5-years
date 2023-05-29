@@ -364,11 +364,25 @@ nav {
   justify-content: center;
   padding: 5vw 0;
   background-color: #E6E6E6;
+  flex-direction: column;
+  align-items: center;
+}
+
+.videobox_header {
+  font-family: 'Alice', serif;
+  font-size: 4vw;
+  padding: 0vw 0 1vw 0;
+}
+
+.videobox_title {
+  font-family: 'Alice', serif;
+  font-size: 1.5vw;
+  padding-bottom: 3vw;
 }
 
 video {
   width: 70vw;
-  border-radius: 1vw;
+  border-radius: 2vw;
 }
 
 
@@ -766,6 +780,7 @@ nav {
 .egup_button_text {
 font-size: 3.5vw;
 }
+
 
 
 .videobox {
