@@ -142,22 +142,22 @@ const interval2 = setInterval(animateNumber2, 100);
 
 // const interval3 = setInterval(animateNumber3, 100);
 
-const text = "с намёком на 80-е";
-const delay = 100; // задержка между появлением каждой буквы
+// const text = "с намёком на 80-е";
+// const delay = 100; // задержка между появлением каждой буквы
 
-const target = document.getElementById('typing-effect');
+// const target = document.getElementById('typing-effect');
 
-function typeEffect(text, i) {
-  if (i < text.length) {
-    target.innerHTML += text.charAt(i);
-    i++;
-    setTimeout(function() {
-      typeEffect(text, i);
-    }, delay);
-  }
-}
+// function typeEffect(text, i) {
+//   if (i < text.length) {
+//     target.innerHTML += text.charAt(i);
+//     i++;
+//     setTimeout(function() {
+//       typeEffect(text, i);
+//     }, delay);
+//   }
+// }
 
-typeEffect(text, 0);
+// typeEffect(text, 0);
 
 
 //::::::::::::::::::::::::::::::::::::::::::::::::::
@@ -238,3 +238,42 @@ function showImage(src) {
   
 
   
+
+
+
+
+
+
+
+
+
+
+
+
+
+  document.addEventListener('DOMContentLoaded', () => {
+  
+	//===== MICRO-SLIDER begin
+	const __ms = document.querySelector('.micro-slider');
+	const __msSlider = new MicroSlider(__ms, { indicators: true, indicatorText: '' });
+	const hammer = new Hammer(__ms);
+	  const __msTimer = 3000;
+	let __msAutoplay = setInterval(() => __msSlider.next(), __msTimer);
+	  
+	
+	//detect gesture tap event with hammer js library
+	hammer.on('tap', function(e) {
+	  clearInterval(__msAutoplay);
+	  console.log(e.type + ' gesture detected');
+	});
+	
+	//detect gesture swipe event with hammer js library
+	hammer.on('swipe', function(e) {
+	  clearInterval(__msAutoplay); 
+	  __msAutoplay = setInterval(() => __msSlider.next(), __msTimer);
+	  console.log(e.type + ' gesture detected');
+	});
+	
+  });
+
+

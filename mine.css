@@ -320,6 +320,10 @@ nav {
   transition: all 1.5s cubic-bezier(0.16, 1, 0.3, 1);
 }
 
+.paragraph_description  span{
+  color: #E30510;
+}
+
 .paragraph_description._active{
   transform: translate(0vw, 0vw);
   opacity: 1;
@@ -422,6 +426,22 @@ nav {
   font-size: 4vw;
   padding: 0vw 0 1vw 0;
 }
+
+.photobox {
+  display: flex;
+  justify-content: center;
+  padding: 5vw 0 0 0;
+  background-color: #F7F7F7;
+  flex-direction: column;
+  align-items: center;
+}
+
+.photobox_header {
+  font-family: 'Alice', serif;
+  font-size: 4vw;
+  padding: 0vw 0 1vw 0;
+}
+
 
 .videobox_title {
   font-family: 'Alice', serif;
@@ -626,62 +646,41 @@ footer {
 
 
 
+
 /*::::::::::::::::::::::::::::::::::::::::::::::::::*/
-/* Галерея                                    */
+/* Слайдер                                          */
 /*::::::::::::::::::::::::::::::::::::::::::::::::::*/
 
-.gallery {
-  display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  grid-gap: 1vw;
-  padding: 3vw 3vw;
-  transition: background-color 1s ease;
-}
-
-.grid-item {
+.micro-slider {
+  height: 40vw;
   position: relative;
-}
-
-.grid-img {
-  max-width: 100%;
-  max-height: 100%;
-  object-fit: contain;
-  cursor: pointer;
-  border-radius: 1vw;
-}
-
-#modal {
-  display: none;
-  position: fixed;
-  z-index: 1;
-  padding: 2vw;
-  left: 0;
-  top: 0;
   width: 100%;
-  height: 100%;
-  overflow: auto;
-  background-color: rgba(0, 0, 0, 0.9);
 }
 
-#modal-image {
-  display: block;
-  margin: auto;
-  width: 70%;
-
-  object-fit: contain;
-  border-radius: 1vw;
+.slider-wrapper {
+  overflow: hidden;
+  position: relative;
+  transform-style: preserve-3d;
+  transform-origin: 0 50%;
 }
 
-.close {
-  color: #636363;
+.slider-item {
+  background: #f6f6f6;
+  color: #FFF;
+  display: none;
+  height: 30vw;
+  line-height: 25vw;
+  left: 0;
   position: absolute;
-  top: 2vw;
-  right: 5vw;
-  font-size: 7vw;
-  font-weight: bold;
-  cursor: pointer;
+  text-align: center;
+  width: 49vw;
+  cursor: grab;
+  border-radius: 2vw;
 }
 
+
+.s1, .s2, .s3, .s4, .s5, .s6, .s7, .s8, .s9, .s10, .s11, .s12
+{background: linear-gradient(rgba(0,0,0,0.2), rgba(0,0,0,0.3)); background-attachment: fixed; background-size: cover; -webkit-background-size: cover; background-repeat: no-repeat; background-position: center center;}
 
 
 
