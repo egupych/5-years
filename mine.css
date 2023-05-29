@@ -683,7 +683,13 @@ nav {
   justify-content: space-between;
 }
 
-
+.pic_5 {
+  position: absolute;
+  right: -5vw;
+  top: 18vw;
+  width: 12vw;
+  z-index: -1;
+}
 
 .paragraph_first {
   width: 85%;
