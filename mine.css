@@ -579,7 +579,7 @@ footer {
   position: relative;
 }
 
-img {
+.grid-img {
   max-width: 100%;
   max-height: 100%;
   object-fit: contain;
@@ -683,10 +683,35 @@ nav {
 }
 
 
-.paragraph {
+.paragraph1 {
   width: 100%;
-  padding: 30vw 10vw 4vw;
+  margin: 0 auto;
+  position: relative;
+  padding: 41vw 8vw 7vw;
 }
+
+.paragraph2 {
+  width: 100%;
+  margin: 0 auto;
+  position: relative;
+  padding: 36vw 8vw 7vw;
+}
+
+.paragraph3 {
+  width: 100%;
+  margin: 0 auto;
+  position: relative;
+  padding: 41.5vw 8vw 7vw;
+}
+
+.paragraph4 {
+  width: 100%;
+  margin: 0 auto;
+  position: relative;
+  padding: 33vw 8vw 7vw;
+}
+
+
 
 .paragraph:nth-child(2n) {
   width: 100%;
@@ -710,13 +735,26 @@ nav {
   transition: all 1.5s cubic-bezier(0.16, 1, 0.3, 1);
 }
 
-.button-text {
-  font-size: 4vw;
-  font-family: 'Yeseva One',serif;
+
+.egup_button{
+  padding: 1.85vw 3.5vw;
+  gap: 1.1vw;
+  
+  border-radius: 5.21vw;
+}
+
+.egup_button_text {
+font-size: 1.62vw;
 }
 
 video {
   width:  100vw;
+
+}
+
+.gallery {
+
+  grid-template-columns: repeat(2, 1fr);
 
 }
 
