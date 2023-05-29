@@ -352,8 +352,13 @@ nav {
 }
 
 .block4{
-  background-color: #E6E6E6;
+  background-color: #F7F7F7;
   position: relative;
+}
+
+.themes
+{
+  background-color: #E6E6E6;
 }
 
 
@@ -425,20 +430,6 @@ nav {
   font-family: 'Alice', serif;
   font-size: 4vw;
   padding: 0vw 0 1vw 0;
-}
-
-.photobox {
-  display: flex;
-  justify-content: center;
-  padding: 5vw 0 0 0;
-  background-color: #F7F7F7;
-  flex-direction: column;
-  align-items: center;
-}
-
-.photobox_header {
-  font-family: 'Alice', serif;
-  font-size: 4vw;
 }
 
 
@@ -619,7 +610,7 @@ flex-grow: 0;
 footer {
   display: flex;
   justify-content: center;
-  background-color: #E6E6E6;
+  background-color: #F7F7F7;
 }
 
 /*::::::::::::::::::::::::::::::::::::::::::::::::::*/
@@ -651,7 +642,7 @@ footer {
 /*::::::::::::::::::::::::::::::::::::::::::::::::::*/
 
 .micro-slider {
-  height: 40vw;
+  height: 50vw;
   position: relative;
   width: 100%;
 }
@@ -664,7 +655,7 @@ footer {
 }
 
 .slider-item {
-  background: #f6f6f6;
+  background: #E6E6E6;
   color: #FFF;
   display: none;
   height: 30vw;
