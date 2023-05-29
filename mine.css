@@ -683,6 +683,8 @@ nav {
   justify-content: space-between;
 }
 
+
+
 .paragraph_first {
   width: 85%;
 }
@@ -724,9 +726,17 @@ nav {
 
 .paragraph_header {
   font-family: 'Alice', serif;
-  font-size: 7vw;
+  font-size: 5vw;
   
   margin-bottom: 3vw;
+}
+
+.big_header {
+  font-family: 'Yeseva One', serif;
+  font-size: 7vw;
+  
+  text-align: center;
+  padding: 3vw;
 }
 
 .paragraph_description {
