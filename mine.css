@@ -561,36 +561,72 @@ footer {
   background-color: #072239; /* Цвет полосы прокрутки при наведении */
 }
 
+
+
 /*::::::::::::::::::::::::::::::::::::::::::::::::::*/
-/* Анимация загрузки                                */
+/* Галерея                                    */
 /*::::::::::::::::::::::::::::::::::::::::::::::::::*/
 
-#preloader {
+.gallery {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 1vw;
+  padding: 3vw 3vw;
+  transition: background-color 1s ease;
+}
+
+.grid-item {
+  position: relative;
+}
+
+img {
+  max-width: 100%;
+  max-height: 100%;
+  object-fit: contain;
+  cursor: pointer;
+  border-radius: 1vw;
+  filter: brightness(0.9);
+  transition: background-color 1s ease;
+}
+
+img:hover {
+  filter: brightness(1);
+
+}
+
+#modal {
+  display: none;
   position: fixed;
-  top: 0;
+  z-index: 1;
+  padding: 2vw;
   left: 0;
+  top: 0;
   width: 100%;
   height: 100%;
-  background-color: #F7F7F7;
-  z-index: 9999;
+  overflow: auto;
+  background-color: rgba(0, 0, 0, 0.9);
 }
 
-#loader {
-  border: 0.3vw solid #F7F7F7;
-  border-top: 0.3vw solid #072239;
-  border-radius: 100%;
-  width: 3vw;
-  height: 3vw;
-  animation: spin 2s linear infinite;
+#modal-image {
+  display: block;
+  margin: auto;
+  max-width: 100%;
+
+  object-fit: contain;
+  border-radius: 1vw;
+}
+
+.close {
+  color: #636363;
   position: absolute;
-  left: 50%;
-  top: 50%;
+  top: 2vw;
+  right: 5vw;
+  font-size: 7vw;
+  font-weight: bold;
+  cursor: pointer;
 }
 
-@keyframes spin {
-  0% { transform: rotate(0deg); }
-  100% { transform: rotate(360deg); }
-}
+
 
 
 /*::::::::::::::::::::::::::::::::::::::::::::::::::*/
