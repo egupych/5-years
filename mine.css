@@ -766,7 +766,7 @@ video {
 .footer {
   width: 90%;
   align-items: flex-start;
-  font-size: 2.6vw;
+  font-size: 3vw;
   flex-direction: column;
 
   gap: 3vw;
