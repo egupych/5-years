@@ -585,13 +585,6 @@ img {
   object-fit: contain;
   cursor: pointer;
   border-radius: 1vw;
-  filter: brightness(0.9);
-  transition: background-color 1s ease;
-}
-
-img:hover {
-  filter: brightness(1);
-
 }
 
 #modal {
