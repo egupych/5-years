@@ -617,7 +617,7 @@ footer {
 #modal-image {
   display: block;
   margin: auto;
-  max-width: 70%;
+  width: 70%;
 
   object-fit: contain;
   border-radius: 1vw;
@@ -811,10 +811,7 @@ video {
   width: 100%;
 
   object-fit: contain;
-  position: absolute;
-  top: 0;
-  bottom: 0;
-  margin: auto 0;
+  
 }
 
 .footer {
