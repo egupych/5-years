@@ -280,6 +280,7 @@ nav {
   position: absolute;
   right: -14vw;
   top: 0vw;
+  width: 12vw;
 }
 
 .block1{
@@ -682,6 +683,9 @@ nav {
   justify-content: space-between;
 }
 
+.paragraph_first {
+  width: 85%;
+}
 
 .paragraph1 {
   width: 100%;
