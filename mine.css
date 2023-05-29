@@ -527,7 +527,6 @@ flex-grow: 0;
   font-size: 1.2vw;
   margin-top: 3vw;
   margin-bottom: 4vw;
-
 }
 
 .authors:hover .advertising {
@@ -757,14 +756,15 @@ nav {
 
 
 .egup_button{
-  padding: 2.59vw 4.9vw;
+  padding: 2.59vw 20vw;
   gap: 1.54vw;
   
   border-radius: 7.3vw;
+  margin-top: 5vw;
 }
 
 .egup_button_text {
-font-size: 2.27vw;
+font-size: 3.5vw;
 }
 
 
@@ -784,6 +784,8 @@ video {
 .gallery {
 
   grid-template-columns: repeat(2, 1fr);
+  padding: 7vw 4vw;
+  gap: 2vw;
 
 }
 
@@ -805,9 +807,13 @@ video {
   align-items: flex-start;
   font-size: 2.9vw;
   flex-direction: column;
+  margin-top: 6vw;
+  margin-bottom: 7vw;
 
   gap: 3vw;
 }
+
+
 
 .logo2 {
   font-size: 6vw;
