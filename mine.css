@@ -763,6 +763,19 @@ video {
 }
 
 
+#modal-image {
+  display: block;
+  margin: auto;
+  max-width: 100%;
+
+  object-fit: contain;
+  border-radius: 1vw;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  margin: auto 0;
+}
+
 .footer {
   width: 90%;
   align-items: flex-start;
