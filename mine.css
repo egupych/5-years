@@ -731,7 +731,7 @@ nav {
 
 .paragraph_description {
   font-family: 'Alice', serif;
-  font-size: 3.3vw;
+  font-size: 3.5vw;
   line-height: 160%;
   margin-bottom: 3vw;
   transform: translate(10vw, 0vw);
@@ -766,7 +766,7 @@ video {
 .footer {
   width: 90%;
   align-items: flex-start;
-  font-size: 3vw;
+  font-size: 2.9vw;
   flex-direction: column;
 
   gap: 3vw;
