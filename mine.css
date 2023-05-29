@@ -237,6 +237,55 @@ nav {
   z-index: -1;
 }
 
+.wallpaper_animate {
+  position: relative;
+}
+
+.wallpaper_sky1 {
+  width: 100%;
+  position: absolute;
+  bottom: 0vw;
+  pointer-events: none;
+  animation: wallpaper_sky2  210s linear infinite ;
+  animation-direction: alternate;
+  z-index: -2;
+}
+
+  
+@keyframes wallpaper_sky2  {
+  0% {
+    transform: translateX(0);
+  }
+  50% {
+    transform: translateX(120vw);
+  }
+  100% {
+    transform: translateX(0);
+  }
+}
+
+.wallpaper_sky2 {
+  width: 100%;
+  position: absolute;
+  bottom: 0vw;
+  pointer-events: none;
+  animation: wallpaper_sky2  170s linear infinite ;
+  animation-direction: alternate;
+}
+
+  
+@keyframes wallpaper_sky2  {
+  0% {
+    transform: translateX(0);
+  }
+  50% {
+    transform: translateX(120vw);
+  }
+  100% {
+    transform: translateX(0);
+  }
+}
+
 
 .paragraph_first {
   width: 60%;
