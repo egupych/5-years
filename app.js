@@ -80,52 +80,6 @@ if (animIMGs.length > 0) {
   }, 300);
 }
 
-// Получаем элемент, который будем анимировать
-const numberElement1 = document.getElementById("number1");
-
-// Устанавливаем начальное значение
-let number1 = 889976;
-
-// Функция для анимации числа
-function animateNumber1() {
-  // Если число достигло нужного значения, останавливаем анимацию
-  if (number1 >= 890000) {
-    clearInterval(interval1);
-  } else {
-    // Увеличиваем значение числа на 1 и обновляем текст элемента
-    number1++;
-    numberElement1.textContent = number1;
-  }
-}
-
-// Запускаем анимацию с интервалом в 50 миллисекунд
-const interval1 = setInterval(animateNumber1, 100);
-
-
-
-// Получаем элемент, который будем анимировать
-const numberElement2 = document.getElementById("number2");
-
-// Устанавливаем начальное значение
-let number2 = 0;
-
-// Функция для анимации числа
-function animateNumber2() {
-  // Если число достигло нужного значения, останавливаем анимацию
-  if (number2 >= 24) {
-    clearInterval(interval2);
-  } else {
-    // Увеличиваем значение числа на 1 и обновляем текст элемента
-    number2++;
-    numberElement2.textContent = number2;
-  }
-}
-
-// Запускаем анимацию с интервалом в 50 миллисекунд
-const interval2 = setInterval(animateNumber2, 100);
-
-
-
 //::::::::::::::::::::::::::::::::::::::::::::::::::
 //Анимация прокрутки до якоря
 //::::::::::::::::::::::::::::::::::::::::::::::::::
@@ -199,21 +153,11 @@ function showImage(src) {
 	var modal = document.getElementById("modal");
 	modal.style.display = "none";
   }
+
+//::::::::::::::::::::::::::::::::::::::::::::::::::
+// Большой автослайдер с фото
+//::::::::::::::::::::::::::::::::::::::::::::::::::
   
-
-  
-
-
-
-
-
-
-
-
-
-
-
-
 
   document.addEventListener('DOMContentLoaded', () => {
   
@@ -242,7 +186,7 @@ function showImage(src) {
 
 
 //::::::::::::::::::::::::::::::::::::::::::::::::::
-//Анимация слайдов карусели
+//Анимация 4 фото под постами
 //::::::::::::::::::::::::::::::::::::::::::::::::::
 
 const slides = document.querySelectorAll(".slide");
