@@ -271,6 +271,7 @@ nav {
   pointer-events: none;
   animation: wallpaper_sky2  170s linear infinite ;
   animation-direction: alternate;
+  z-index: -2;
 }
 
   
