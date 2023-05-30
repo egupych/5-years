@@ -428,7 +428,7 @@ nav {
 
 .videobox_header {
   font-family: 'Alice', serif;
-  font-size: 4vw;
+  font-size: 3vw;
   padding: 0vw 0 1vw 0;
 }
 
@@ -610,7 +610,7 @@ flex-grow: 0;
 footer {
   display: flex;
   justify-content: center;
-  background-color: #F7F7F7;
+  background-color: #E6E6E6;
 }
 
 /*::::::::::::::::::::::::::::::::::::::::::::::::::*/
@@ -828,12 +828,19 @@ font-size: 3.5vw;
   background-color: #E6E6E6;
 }
 
+.videobox_title {
+  font-size: 3.5vw;
+}
+
 
 video {
   width:  100vw;
-
+  border-radius: 0;
 }
 
+.videobox_header {
+  font-size: 5vw;
+}
 
 .micro-slider {
   height: 91vw;
