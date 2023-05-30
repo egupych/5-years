@@ -126,40 +126,6 @@ const interval2 = setInterval(animateNumber2, 100);
 
 
 
-
-// const numberElement3 = document.getElementById("number3");
-
-// let number3 = 1;
-
-// function animateNumber3() {
-//   if (number3 >= 25) {
-//     clearInterval(interval3);
-//   } else {
-//     number3++;
-//     numberElement3.textContent = number3;
-//   }
-// }
-
-// const interval3 = setInterval(animateNumber3, 100);
-
-// const text = "с намёком на 80-е";
-// const delay = 100; // задержка между появлением каждой буквы
-
-// const target = document.getElementById('typing-effect');
-
-// function typeEffect(text, i) {
-//   if (i < text.length) {
-//     target.innerHTML += text.charAt(i);
-//     i++;
-//     setTimeout(function() {
-//       typeEffect(text, i);
-//     }, delay);
-//   }
-// }
-
-// typeEffect(text, 0);
-
-
 //::::::::::::::::::::::::::::::::::::::::::::::::::
 //Анимация прокрутки до якоря
 //::::::::::::::::::::::::::::::::::::::::::::::::::
@@ -177,8 +143,6 @@ function setScrollIntoView1Options(top) {
 		behavior: "smooth"
 	});
 }
-
-
 
 
 
@@ -277,3 +241,22 @@ function showImage(src) {
   });
 
 
+//::::::::::::::::::::::::::::::::::::::::::::::::::
+//Анимация слайдов карусели
+//::::::::::::::::::::::::::::::::::::::::::::::::::
+
+const slides = document.querySelectorAll(".slide");
+
+for (const slide of slides) {
+  slide.addEventListener("click", () => {
+    clearActiveClasses();
+    
+    slide.classList.add("active");
+  });
+}
+
+function clearActiveClasses() {
+  slides.forEach((slide) => {
+    slide.classList.remove("active");
+  });
+}
