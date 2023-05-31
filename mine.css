@@ -377,7 +377,7 @@ nav {
 
 
 .wallpaper_block1, .wallpaper_block2, .wallpaper_block3, .wallpaper_block4 {
-  width: 1600px;
+  width: 80vw;
   padding: 96px 0 64px 0;
 }
 
@@ -1460,7 +1460,7 @@ font-size: 3.5vw;
 .videobox {
   display: flex;
   justify-content: center;
-  padding: 7vw 0 5vw 0;
+  padding: 7vw 0 7vw 0;
   background-color: #E6E6E6;
 }
 
@@ -1487,7 +1487,7 @@ video {
 }
 
 .slide {
-	height: 34vw;
+	height: 44vw;
 	color: #fff;
 	flex: 1.1;
 	background-size: cover;
