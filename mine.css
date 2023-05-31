@@ -1026,6 +1026,8 @@ footer {
     position: relative;
     padding: 0vw 22vw 5vw;
   }
+
+
   
   /*::::::::::::::::::::::::::::::::::::::::::::::::::*/
 /* Слайдер с 4 фото                                 */
@@ -1391,7 +1393,7 @@ nav {
   margin-top: 3vw;
 }
 
-.paragraph1, .paragraph2, .paragraph4, .paragraph4 {
+.paragraph1, .paragraph2, .paragraph3, .paragraph4 {
   width: 100%;
   margin: 0 auto;
   position: relative;
