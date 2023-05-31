@@ -396,7 +396,7 @@ nav {
 }
 
 .slide {
-	height: 384px;
+	height: 50vh;
 	color: #fff;
 	flex: 1.1;
 	background-size: cover;
