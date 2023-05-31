@@ -293,6 +293,7 @@ nav {
   margin: 0 auto;
   position: relative;
   padding: 32px;
+  margin-top: 16px;
 }
 
 .paragraph_header {
@@ -969,6 +970,7 @@ footer {
     margin: 0 auto;
     position: relative;
     padding: 2vw;
+    margin-top: 1vw;
   }
   
   .paragraph_header {
@@ -1464,6 +1466,7 @@ nav {
 
 .paragraph_first {
   width: 85%;
+  margin-top: 3vw;
 }
 
 .paragraph1 {
