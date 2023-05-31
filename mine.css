@@ -372,7 +372,7 @@ nav {
 
 
 .wallpaper_block1, .wallpaper_block2, .wallpaper_block3, .wallpaper_block4 {
-  width: 1600px;
+  width: 80vw;
   padding: 96px 0 64px 0;
 }
 
@@ -396,7 +396,7 @@ nav {
 }
 
 .slide {
-	height: 50vh;
+	height: 35vh;
 	color: #fff;
 	flex: 1.1;
 	background-size: cover;
@@ -416,7 +416,7 @@ nav {
 }
   
 .slide.active {
-	flex: 10;
+	flex: 7;
 	filter: none;
 	opacity: 1;
 	
