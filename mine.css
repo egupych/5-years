@@ -365,6 +365,7 @@ nav {
 
 .wallpaper_block1, .wallpaper_block2, .wallpaper_block3, .wallpaper_block4 {
   width: 100vw;
+  padding: 96px 0 64px 0;
 }
 
 
@@ -1000,6 +1001,7 @@ footer {
   
   .wallpaper_block1, .wallpaper_block2, .wallpaper_block3 ,.wallpaper_block4  {
     width: 100vw;
+    padding: 6vw 0 4vw 0;
   }
   
   .paragraph1, .paragraph2, .paragraph3, .paragraph4 {
