@@ -300,7 +300,6 @@ nav {
   font-family: 'Alice', serif;
   font-size: 48px;
   
-  margin-bottom: 12.8px;
   text-align: center;
 }
 
@@ -977,7 +976,6 @@ footer {
     font-family: 'Alice', serif;
     font-size: 3vw;
     
-    margin-bottom: 0.8vw;
     text-align: center;
   }
   
@@ -1508,7 +1506,6 @@ nav {
   font-family: 'Alice', serif;
   font-size: 5vw;
   
-  margin-bottom: 3vw;
 }
 
 .big_header {
