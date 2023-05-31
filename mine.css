@@ -392,28 +392,28 @@ nav {
   width: 100%;
   margin: 0 auto;
   position: relative;
-  padding: 656px 352px 112px;
+  padding: 656px 352px 50px;
 }
 
 .paragraph2 {
   width: 100%;
   margin: 0 auto;
   position: relative;
-  padding: 576px 352px 112px;
+  padding: 576px 352px 50px;
 }
 
 .paragraph3 {
   width: 100%;
   margin: 0 auto;
   position: relative;
-  padding: 664px 352px 112px;
+  padding: 664px 352px 50px;
 }
 
 .paragraph4 {
   width: 100%;
   margin: 0 auto;
   position: relative;
-  padding: 528px 352px 112px;
+  padding: 528px 352px 50px;
 }
 
   /*::::::::::::::::::::::::::::::::::::::::::::::::::*/
@@ -1068,28 +1068,28 @@ footer {
     width: 100%;
     margin: 0 auto;
     position: relative;
-    padding: 41vw 22vw 7vw;
+    padding: 41vw 22vw 3.5vw;
   }
   
   .paragraph2 {
     width: 100%;
     margin: 0 auto;
     position: relative;
-    padding: 36vw 22vw 7vw;
+    padding: 36vw 22vw 3.5vw;
   }
   
   .paragraph3 {
     width: 100%;
     margin: 0 auto;
     position: relative;
-    padding: 41.5vw 22vw 7vw;
+    padding: 41.5vw 22vw 3.5vw;
   }
   
   .paragraph4 {
     width: 100%;
     margin: 0 auto;
     position: relative;
-    padding: 33vw 22vw 7vw;
+    padding: 33vw 22vw 3.5vw;
   }
   
   /*::::::::::::::::::::::::::::::::::::::::::::::::::*/
