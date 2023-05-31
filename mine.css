@@ -1123,17 +1123,6 @@ footer {
 	filter: none;
 }
 
-.slide h3 {
-	position: absolute;
-	font-size: 2vw;
-	bottom: 2vw;
-	left: 3vw;
-	margin: 0;
-	transition: all 1.3s cubic-bezier(.47,.17,.3,1);
-   	transform: translate(9vw, 0vw);
-  	opacity: 0;
-}
-  
 .slide.active {
 	flex: 10;
 	filter: none;
@@ -1561,6 +1550,44 @@ video {
 .videobox_header {
   font-size: 5vw;
 }
+
+
+.photo_under_post {
+	width: 100%;
+	display: flex;
+	padding: 2vw 0vw 1.4vw 0vw;
+  gap: 2vw;
+}
+
+.slide {
+	height: 34vw;
+	color: #fff;
+	flex: 1.1;
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+	position: relative;
+	transition: all 1300ms cubic-bezier(.47,.17,.3,1);
+	filter: grayscale(100%);
+	border-radius: 3.5vw;
+	opacity: 0.6;
+	background-color: rgb(239, 239, 239);
+	cursor: pointer;
+}
+
+.slide:hover {
+	filter: none;
+}
+
+.slide.active {
+	flex: 8;
+	filter: none;
+	opacity: 1;
+	
+}
+
+  
+
 
 .micro-slider {
   height: 91vw;
