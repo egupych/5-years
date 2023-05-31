@@ -339,22 +339,30 @@ nav {
 
 .block1{
   background-color: #E6E6E6;
-  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 .block2{
   background-color: #F7F7F7;
-  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 .block3{
   background-color: #F7F7F7;
-  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 .block4{
   background-color: #F7F7F7;
-  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 .themes
@@ -364,7 +372,7 @@ nav {
 
 
 .wallpaper_block1, .wallpaper_block2, .wallpaper_block3, .wallpaper_block4 {
-  width: 100vw;
+  width: 1600px;
   padding: 96px 0 64px 0;
 }
 
@@ -975,22 +983,30 @@ footer {
   
   .block1{
     background-color: #E6E6E6;
-    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
   }
   
   .block2{
     background-color: #F7F7F7;
-    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
   }
   
   .block3{
     background-color: #F7F7F7;
-    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
   }
   
   .block4{
     background-color: #F7F7F7;
-    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
   }
   
   .themes
