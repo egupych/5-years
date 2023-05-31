@@ -424,7 +424,7 @@ nav {
 .photo_under_post {
 	width: 100%;
 	display: flex;
-	padding: 16px 0vw 16px 0vw;
+	padding: 16px 0vw 22px 0vw;
   gap: 32px;
 }
 
@@ -1101,7 +1101,7 @@ footer {
 .photo_under_post {
 	width: 100%;
 	display: flex;
-	padding: 1vw 0vw 1vw 0vw;
+	padding: 1vw 0vw 1.4vw 0vw;
   gap: 2vw;
 }
 
